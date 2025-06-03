@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+.events-container {
+    @apply max-w-4xl mx-auto px-6 py-10;
+  }
+  
+  .back-button {
+    @apply text-white font-bold text-base mb-6 inline-block px-4 py-2 rounded-lg bg-indigo-500 hover:bg-indigo-600 transition duration-300 shadow;
+  }
+  
+  .event-form {
+    @apply bg-white shadow-xl rounded-lg p-8 border border-gray-200;
+  }
+  
+  .form-description {
+    @apply mt-2 text-gray-600 text-sm mb-8;
+  }
+  
+  .form-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8;
+  }
+  
+  .submit-button {
+    @apply flex justify-end mt-6;
+  }
+  

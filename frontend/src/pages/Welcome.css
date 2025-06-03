@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+.welcome-container {
+    @apply flex items-center justify-center min-h-screen bg-gradient-to-br from-indigo-100 via-white to-purple-100;
+  }
+  
+  .welcome-card {
+    @apply bg-white rounded-xl shadow-2xl p-10 max-w-lg w-full text-center;
+    animation: fadeInDown 0.6s ease-out;
+  }
+  
+  .welcome-image img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+  }
+  
+  .welcome-description {
+    @apply mb-6 text-gray-600 text-lg;
+  }
+  
+  .welcome-button {
+    @apply bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-6 rounded transition duration-300;
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
