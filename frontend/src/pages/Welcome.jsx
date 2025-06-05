@@ -26,7 +26,7 @@ const Welcome = () => {
           />
         </div>
 
-        <SubTitulo titulo="¡Bienvenido a la App de Eventos!" />
+        <SubTitulo titulo="¡Bienvenido a Impulso Creativo!" />
 
         <p className="welcome-description">
           Organiza, crea y administra tus eventos de forma sencilla.

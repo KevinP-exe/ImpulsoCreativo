@@ -2,6 +2,8 @@
 
 .welcome-container {
     @apply flex items-center justify-center min-h-screen bg-gradient-to-br from-indigo-100 via-white to-purple-100;
+    --tw-gradient-via: var(--color-white);
+    --tw-gradient-via-stops: var(--tw-gradient-position), oklch(0.88 0.2 94.49) var(--tw-gradient-from-position), #de0d0d var(--tw-gradient-via-position), #ce2c81 var(--tw-gradient-to-position);
   }
   
   .welcome-card {
@@ -14,7 +16,7 @@
     height: 80px;
     margin: 0 auto 1.5rem;
   }
-  
+
   .welcome-description {
     @apply mb-6 text-gray-600 text-lg;
   }

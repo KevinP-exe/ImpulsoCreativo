@@ -24,3 +24,26 @@
     @apply flex justify-end mt-6;
   }
   
+  body.dark {
+    @apply bg-gray-900 text-white;
+  }
+  
+  body.dark .events-container {
+    @apply text-white;
+  }
+  
+  body.dark .event-form {
+    @apply bg-gray-800 border-gray-600;
+  }
+  
+  body.dark .form-description {
+    @apply text-white;
+  }
+  
+  body.dark .back-button {
+    @apply bg-purple-600 hover:bg-purple-700;
+  }
+
+  body.dark label {
+    @apply text-white;
+  }

@@ -50,4 +50,31 @@
     @apply mr-2 mb-1;
   }
   
+  body.dark {
+    @apply bg-gray-900 text-white;
+  }
+  
+  body.dark .home-container {
+    @apply bg-gray-800 text-gray-700;
+  }
+  
+  body.dark .table-container {
+    @apply bg-gray-700;
+  }
+  
+  body.dark .event-table {
+    @apply bg-gray-800 text-gray-100 border-gray-600;
+  }
+  
+  body.dark .table-header {
+    @apply bg-gray-600 text-white;
+  }
+  
+  body.dark .table-row:hover {
+    @apply bg-gray-600;
+  }
+  
+  body.dark .home-add-button {
+    @apply bg-gradient-to-r from-purple-500 to-purple-700;
+  }
   
